@@ -1,0 +1,60 @@
+.container {
+margin-left: 250px; /* Doit être égal ou supérieur à la largeur de votre Sidebar */
+padding: 30px;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: #f8fafc;
+}
+
+.container h1 {
+  font-size: 32px;
+  margin: 0 0 4px;
+}
+.uls {
+  list-style-type: none;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.uls li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.uls button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #ef4444;
+  color: #fff;
+  cursor: pointer;
+}
+.container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.container button[type="submit"] {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin:10px  0;
+}
