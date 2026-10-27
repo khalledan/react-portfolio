@@ -38,3 +38,19 @@ src/
 │       ├── contactsList/
 │       ├── toDoList/
 │       └── Users/
+
+
+🚀 Installation & Utilisation (Getting Started)
+1-Clonez le repository :
+
+Bash
+git clone [https://github.com/khalledan/react-portfolio.git](https://github.com/khalledan/react-portfolio.git)
+
+2-Installez les dépendances :
+Bash
+cd react-portfolio
+npm install
+
+3-Lancez le serveur de développement :
+Bash
+npm run dev
