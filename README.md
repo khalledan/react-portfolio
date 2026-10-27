@@ -1,16 +1,56 @@
-# React + Vite
+# 🚀 React Mini-Projects Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Bienvenue sur mon Portfolio React ! Ce projet centralise une collection d'applications modulaires et de mini-projets construits avec React, mettant en valeur une architecture propre et orientée composants.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+* **React** (avec Vite)
+* **CSS Modules** (pour un style modulaire et isolé)
+* **JavaScript (ES6+) / Async & Await**
+* **REST APIs** (OpenWeatherMap API)
+* **Git & GitHub** (Gestion de versions)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 📂 Projets Inclus (Features)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+| Projet | Description | Technologies Clés |
+| :--- | :--- | :--- |
+| **🌤️ Weather App** | Application météo en temps réel par ville | `fetch`, OpenWeatherMap API, `useState` |
+| **📇 Contacts List** | Gestion et affichage d'une liste de contacts | React State, Component Composition |
+| **📝 Todo List** | Gestion des tâches quotidiennes (CRUD de base) | State Management, Form Handling |
+| **👥 Users & Dashboard** | Tableau de bord et gestion des utilisateurs | Modular CSS, Dynamic Layouts |
+
+---
+
+## 🏗️ Structure du Projet
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Sidebar.jsx
+│   ├── Footer.jsx
+│   └── features/
+│       ├── WeatherApp/
+│       ├── contactsList/
+│       ├── toDoList/
+│       └── Users/
+
+
+🚀 Installation & Utilisation (Getting Started)
+Clonez le repository :
+
+Bash
+git clone [https://github.com/khalledan/react-portfolio.git](https://github.com/khalledan/react-portfolio.git)
+Installez les dépendances :
+
+Bash
+cd react-portfolio
+npm install
+Lancez le serveur de développement :
+
+Bash
+npm run dev
